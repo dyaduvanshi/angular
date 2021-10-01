@@ -1,0 +1,10 @@
+footer{
+    max-width:900px;
+    height: 150px;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid gray;
+    background-color: #383735;
+    color: whitesmoke;
+}

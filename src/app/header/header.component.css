@@ -1,0 +1,29 @@
+.search{
+    max-width:900px;
+    height: 400px;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid gray;
+    background-color: #FF8000;
+}
+.content{
+   padding:100px;
+   color: white;
+}
+.search input{
+    width:60%;
+    padding: 8px 16px;
+    margin-top: 35px;
+    border-radius: 5px;
+   
+}
+.search button{
+        display: inline-block;
+        text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+    width:5%;
+    height: 36px;
+    border-radius: 5px;
+}

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GiphyService } from '../giphy.service';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor(private giphyService: GiphyService) { }
 
   ngOnInit(): void {
+  }
+  search(gifName:string){
+    this.giphyService.searchGifs(gifName);
   }
 
 }
